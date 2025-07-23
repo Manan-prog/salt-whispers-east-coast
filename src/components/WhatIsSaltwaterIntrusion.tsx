@@ -12,9 +12,9 @@ export const WhatIsSaltwaterIntrusion = () => {
               What is Saltwater Intrusion?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A growing crisis where saltwater infiltrates freshwater systems, threatening coastal communities 
-              and ecosystems worldwide. Our cutting-edge satellite technology now makes monitoring this invisible 
-              threat faster and more precise than ever before.
+              A growing crisis where saltwater from the ocean infiltrates freshwater systems, threatening coastal ecosystems
+              and communities worldwide. Our cutting-edge satellite technology now makes monitoring this invisible 
+              threat faster and more precisely than ever before.
             </p>
           </div>
 
