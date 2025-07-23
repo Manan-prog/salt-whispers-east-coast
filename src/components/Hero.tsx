@@ -26,7 +26,7 @@ export const Hero = () => {
  
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1 className="text-4xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up">
+        <h1 className="text-2xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up">
           Salt Whispers - East Coast
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 animate-fade-in-up delay-200">
