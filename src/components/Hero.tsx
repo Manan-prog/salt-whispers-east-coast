@@ -27,15 +27,15 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up">
-          Revolutionizing Saltwater Intrusion Monitoring in Coastal Landscapes
+          Salt Whispers - East Coast
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 animate-fade-in-up delay-200">
-          🌊 Why Saltwater Intrusion Threatens Us All
+          🌊 How Saltwater Intrusion Threatens Us All?
         </p>
         <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto animate-fade-in-up delay-400">
           Rising sea levels and climate change are accelerating coastal saltwater intrusion, damaging farms, 
           wetlands, and communities. Traditional soil testing is time-intensive and costly—discover our revolutionary 
-          satellite-based solution offering instant, high-resolution insights.
+          satellite-based monitoring offering instant, high-resolution insights.
         </p>
         
 {/*         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up delay-600">
