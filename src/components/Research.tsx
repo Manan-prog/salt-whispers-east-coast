@@ -172,8 +172,8 @@ export const Research = () => {
                 <div className="font-semibold">
                   <div className="text-2xl text-ocean-medium mb-1">24/7</div>
                   Monitoring
-                </div> */}
-              </div>
+                </div>
+              </div> */}
             </CardContent>
           </Card>
         </div>
