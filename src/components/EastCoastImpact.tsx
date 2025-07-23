@@ -117,7 +117,7 @@ export const EastCoastImpact = () => {
                   <h4 className="font-semibold mb-4 text-center">Spectral Unmixing Concept</h4>
                   <div className="flex flex-col items-center">
                     <img 
-                      src="/assets/Spectral-Unmixing-Graphic.tif" 
+                      src="/assets/Spectral-Unmixing-Graphic.jpg" 
                       alt="Spectral Unmixing Diagram"
                       className="rounded-lg shadow-md mb-3 w-full max-w-md"
                     />
