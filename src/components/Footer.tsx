@@ -17,7 +17,7 @@ export const Footer = () => {
                 variant="outline" 
                 size="sm"
                 onClick={() => window.open('https://www.sciencedirect.com/science/article/abs/pii/S003442572500046X', '_blank')}
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-ocean-deep"
+                className="border-primary-foreground text-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep"
               >
                 <ExternalLink className="mr-2" size={14} />
                 Read Full Paper
@@ -34,7 +34,7 @@ export const Footer = () => {
                 variant="outline" 
                 size="sm"
                 onClick={() => window.open('https://manan-prog.github.io/Delmarva-Marsh-Viewer/', '_blank')}
-                className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-ocean-deep"
+                className="border-primary-foreground text-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep"
               >
                 <ExternalLink className="mr-2" size={14} />
                 View Data Viewer
@@ -68,10 +68,10 @@ export const Footer = () => {
               </div>
               <div className="flex gap-4 text-sm">
                 <span className="text-primary-foreground/80">
-                  Published in Environmental Science & Policy
+                  Published in Remote Sensing of Environment
                 </span>
                 <span className="text-primary-foreground/80">
-                  DOI: 10.1016/j.envsci.2025.xxx
+                  DOI: 10.1016/j.rse.2025.114642
                 </span>
               </div>
             </div>
