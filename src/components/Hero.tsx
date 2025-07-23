@@ -23,7 +23,7 @@ export const Hero = () => {
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background to-transparent">
         <div className="absolute bottom-0 left-0 right-0 h-16 bg-seafoam/20 animate-wave" />
       </div>
-
+ 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up">
