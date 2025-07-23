@@ -52,7 +52,7 @@ export const Footer = () => {
                   variant="outline" 
                   size="sm"
                   onClick={() => window.open('https://manansarupria599.wixsite.com/stardust, '_blank')}
-                  className="w-full justify-start border-primary-foreground text-black text-primary-foreground hover:bg-primary-foreground hover:text-ocean-deep"
+                  className="w-full justify-start border-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep"
                 >
                   <Mail className="mr-2" size={14} />
                   Contact Researcher
