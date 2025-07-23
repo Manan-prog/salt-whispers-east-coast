@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Waves, ArrowRight, Droplets } from "lucide-react";
-import intrusionDiagram from "@/assets/swi-intrusion.png";
+import intrusionDiagram from "@/assets/swi-intrusion.jpg";
 
 export const WhatIsSaltwaterIntrusion = () => {
   return (
