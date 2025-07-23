@@ -51,7 +51,7 @@ export const Footer = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
-                  onClick={() => window.open('https://manansarupria599.wixsite.com/stardust, '_blank')}
+                  onClick={() => window.open('https://manansarupria599.wixsite.com/stardust', '_blank')}
                   className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-ocean-deep"
                 >
                   <Mail className="mr-2" size={14} />
