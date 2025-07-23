@@ -50,7 +50,7 @@ export const Hero = () => {
             variant="outline" 
             size="lg"
             onClick={() => window.open('https://manan-prog.github.io/Delmarva-Marsh-Viewer/', '_blank')}
-            className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-ocean-deep px-8 py-3 text-lg"
+            className="border-primary-foreground text-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep px-8 py-3 text-lg"
           >
             View Research Data
           </Button>
