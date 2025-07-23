@@ -38,7 +38,7 @@ export const Hero = () => {
           satellite-based solution offering instant, high-resolution insights.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up delay-600">
+{/*         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up delay-600">
           <Button 
             size="lg" 
             onClick={scrollToContent}
@@ -62,7 +62,40 @@ export const Hero = () => {
           >
             Download Research Data
           </Button>
+        </div> */}
+        <div className="flex flex-col items-center animate-fade-in-up delay-600">
+  {/* First row: Learn More button */}
+        <div className="mb-4">
+          <Button 
+            size="lg" 
+            onClick={scrollToContent}
+            className="bg-coral hover:bg-coral/90 text-white shadow-coral px-8 py-3 text-lg"
+          >
+            Learn More
+          </Button>
         </div>
+      
+        {/* Second row: Visualize and Download buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <Button 
+            variant="outline" 
+            size="lg"
+            onClick={() => window.open('https://manan-prog.github.io/Delmarva-Marsh-Viewer/', '_blank')}
+            className="border-primary-foreground text-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep px-8 py-3 text-lg"
+          >
+            Visualize Research Data
+          </Button>
+          <Button 
+            variant="outline" 
+            size="lg"
+            onClick={() => window.open('https://zenodo.org/records/15866496', '_blank')}
+            className="border-primary-foreground text-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep px-8 py-3 text-lg"
+          >
+            Download Research Data
+          </Button>
+        </div>
+
+
       </div>
 
       {/* Scroll indicator */}
