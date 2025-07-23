@@ -95,7 +95,7 @@ export const Hero = () => {
           </Button>
         </div>
 
-
+      </div>
       </div>
 
       {/* Scroll indicator */}
