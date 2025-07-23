@@ -12,9 +12,9 @@ export const WhatIsSaltwaterIntrusion = () => {
               What is Saltwater Intrusion?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A growing crisis where saltwater from the ocean infiltrates freshwater systems, threatening coastal ecosystems
-              and communities worldwide. Our cutting-edge satellite technology now makes monitoring this invisible 
-              threat faster and more precisely than ever before.
+              A combined effect of sea level rise, coastal storm surges, land subsidence, drought, and 
+              excessive groundwater pumping. Climate change is intensifying these drivers, posing a critical 
+              threat to coastal ecosystems and agricultural production.
             </p>
           </div>
 
@@ -60,10 +60,10 @@ export const WhatIsSaltwaterIntrusion = () => {
                   <Droplets className="text-ocean-deep" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold mb-2">Ecosystem Disruption</h3>
+                  <h3 className="text-xl font-semibold mb-2">Agricultural & Ecosystem Impact</h3>
                   <p className="text-muted-foreground">
-                    Even small increases in salinity can kill vegetation, alter soil chemistry, 
-                    and disrupt the entire food chain in coastal marshes.
+                    Leads to farmland degradation, reduced crop yields, ghost forest expansion, 
+                    and conversion of productive farmlands into marshes.
                   </p>
                 </div>
               </div>

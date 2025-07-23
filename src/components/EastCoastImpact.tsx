@@ -2,26 +2,26 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, TrendingUp, AlertTriangle } from "lucide-react";
 
 export const EastCoastImpact = () => {
-  const affectedAreas = [
+  const researchFindings = [
     {
-      region: "Delmarva Peninsula",
-      impact: "Severe marsh loss",
-      description: "Extensive saltwater intrusion affecting critical bird habitats and coastal protection"
+      metric: "Study Area",
+      value: ">15,000 km²",
+      description: "Comprehensive coverage across 14 coastal counties in the Delmarva Peninsula"
     },
     {
-      region: "Chesapeake Bay",
-      impact: "Agricultural damage",
-      description: "Farmland contamination threatening food security and rural economies"
+      metric: "Spatial Resolution",
+      value: "10 meters",
+      description: "High-resolution Sentinel-2 imagery for precise salt patch detection"
     },
     {
-      region: "North Carolina Outer Banks",
-      impact: "Infrastructure threats",
-      description: "Road systems and freshwater supplies at risk from rising seas"
+      metric: "Temporal Resolution",
+      value: "5 days",
+      description: "Frequent monitoring capabilities using satellite technology"
     },
     {
-      region: "South Florida Everglades",
-      impact: "Ecosystem collapse risk",
-      description: "Unique wetland habitats facing unprecedented salinity levels"
+      metric: "Research Focus",
+      value: "DE, MD, VA",
+      description: "Delaware, Maryland, and Virginia coastal counties analysis"
     }
   ];
 
@@ -31,29 +31,29 @@ export const EastCoastImpact = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Impact on the East Coast
+              Delmarva Peninsula Research
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The U.S. East Coast is particularly vulnerable to saltwater intrusion due to 
-              its low-lying topography, dense population, and extensive coastal development.
+              Our comprehensive study spans 14 coastal counties across Delaware, Maryland, and Virginia, 
+              using cutting-edge satellite technology to map saltwater intrusion impacts.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-            {affectedAreas.map((area, index) => (
+            {researchFindings.map((finding, index) => (
               <Card key={index} className="hover:shadow-ocean transition-all duration-300 hover:-translate-y-2">
                 <CardHeader className="pb-3">
                   <div className="flex items-center gap-2 mb-2">
                     <MapPin className="text-ocean-medium" size={20} />
-                    <CardTitle className="text-lg">{area.region}</CardTitle>
+                    <CardTitle className="text-lg">{finding.metric}</CardTitle>
                   </div>
                   <div className="flex items-center gap-2">
-                    <AlertTriangle className="text-coral" size={16} />
-                    <span className="text-sm font-medium text-coral">{area.impact}</span>
+                    <TrendingUp className="text-coral" size={16} />
+                    <span className="text-sm font-medium text-coral">{finding.value}</span>
                   </div>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-sm text-muted-foreground">{area.description}</p>
+                  <p className="text-sm text-muted-foreground">{finding.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -63,53 +63,53 @@ export const EastCoastImpact = () => {
             <CardContent className="p-8">
               <div className="grid lg:grid-cols-2 gap-8 items-center">
                 <div>
-                  <h3 className="text-2xl font-bold mb-4">Rising Threat Levels</h3>
+                  <h3 className="text-2xl font-bold mb-4">Research Methodology</h3>
                   <p className="text-muted-foreground mb-6">
-                    Sea level rise along the East Coast is accelerating, with some areas 
-                    experiencing rates twice the global average. This creates a perfect 
-                    storm for saltwater intrusion.
+                    Our study employs spectral unmixing of Sentinel-2 imagery with Random Forest 
+                    classification to map salt patches and marshes without relying on 
+                    field-derived soil salinity values.
                   </p>
                   
                    <div className="space-y-4">
                      <div className="flex items-center gap-3">
                        <TrendingUp className="text-coral" size={20} />
                        <span className="text-sm">
-                         <strong>Tripled in 10 years:</strong> Salt-affected zones have grown dramatically
+                         <strong>Spectral Unmixing:</strong> Advanced technique to address mixed pixel limitations
                        </span>
                      </div>
                      <div className="flex items-center gap-3">
                        <TrendingUp className="text-coral" size={20} />
                        <span className="text-sm">
-                         <strong>Over 99% accuracy:</strong> Our satellite mapping precisely identifies salt patches
+                         <strong>Novel Indices:</strong> Two new salinity indices developed for enhanced detection
                        </span>
                      </div>
                      <div className="flex items-center gap-3">
                        <TrendingUp className="text-coral" size={20} />
                        <span className="text-sm">
-                         <strong>Every 5 days:</strong> High-resolution monitoring with 10-meter precision
+                         <strong>Random Forest:</strong> Machine learning classifier for accurate mapping
                        </span>
                      </div>
                    </div>
                 </div>
                 
                 <div className="bg-card rounded-xl p-6 shadow-lg">
-                  <h4 className="font-semibold mb-4 text-center">Most Vulnerable Coastlines</h4>
+                  <h4 className="font-semibold mb-4 text-center">Study Region Coverage</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
-                      <span className="text-sm">Delaware Bay</span>
-                      <div className="bg-destructive w-16 h-2 rounded-full"></div>
+                      <span className="text-sm">Delaware Counties</span>
+                      <div className="bg-ocean-medium w-16 h-2 rounded-full"></div>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-sm">Chesapeake Bay</span>
+                      <span className="text-sm">Maryland Counties</span>
                       <div className="bg-coral w-14 h-2 rounded-full"></div>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-sm">North Carolina</span>
-                      <div className="bg-coral w-12 h-2 rounded-full"></div>
+                      <span className="text-sm">Virginia Counties</span>
+                      <div className="bg-destructive w-12 h-2 rounded-full"></div>
                     </div>
                     <div className="flex justify-between items-center">
-                      <span className="text-sm">South Carolina</span>
-                      <div className="bg-ocean-medium w-10 h-2 rounded-full"></div>
+                      <span className="text-sm">Total Area</span>
+                      <div className="bg-ocean-deep w-18 h-2 rounded-full"></div>
                     </div>
                   </div>
                 </div>
