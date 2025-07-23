@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, TrendingUp, AlertTriangle } from "lucide-react";
-import SpectralUnmixing from "@/assets/Spectral-Unmixing-Graphic.jpg";
+import SpectralUnmixing from "@/assets/SpectUnmix.png";
 export const EastCoastImpact = () => {
   const researchFindings = [
     {
@@ -118,8 +118,8 @@ export const EastCoastImpact = () => {
                   <div className="flex flex-col items-center">
                     <img 
                       src={SpectralUnmixing} 
-                      alt="Spectral Unmixing Diagram"
-                      className="bg-white rounded-lg shadow-md mb-3 w-full max-w-md"
+                      alt=" "
+                      className="rounded-lg shadow-md mb-3 w-full max-w-md"
                     />
                     <p className="text-sm text-center text-muted-foreground">
                       Spectral unmixing of a mixed pixel with randomly arranged multiple endmembers (land cover classes) 
