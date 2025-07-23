@@ -114,31 +114,31 @@ export const Consequences = () => {
                   <div className="grid md:grid-cols-3 gap-6">
                     <div className="text-center">
                       <div className="bg-gradient-warning text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-3xl font-bold">
-                        $2B
+                        $27B+
                       </div>
                       <h4 className="font-semibold mb-2">Annual Agricultural Losses</h4>
                       <p className="text-sm text-muted-foreground">
-                        Crop damage and farmland abandonment due to soil salinization
+                        Crop damage and farmland abandonment due to soil salinization globally
                       </p>
                     </div>
                     
                     <div className="text-center">
                       <div className="bg-ocean-medium text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-3xl font-bold">
-                        $5B
+                        $20-40B/year
                       </div>
                       <h4 className="font-semibold mb-2">Infrastructure Costs</h4>
                       <p className="text-sm text-muted-foreground">
-                        Protecting and relocating coastal infrastructure
+                        Projected annual spending on seawalls, relocation, and flood protection in vulnerable regions
                       </p>
                     </div>
                     
                     <div className="text-center">
                       <div className="bg-destructive text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-3xl font-bold">
-                        $10B
+                        $23B/year
                       </div>
                       <h4 className="font-semibold mb-2">Ecosystem Services Lost</h4>
                       <p className="text-sm text-muted-foreground">
-                        Value of lost natural flood protection and carbon storage
+                        Value of lost coastal flood protection from wetlands and mangroves in the U.S. alone
                       </p>
                     </div>
                   </div>
@@ -238,7 +238,7 @@ export const Consequences = () => {
                       </div>
                     </div>
                     
-                    <div className="bg-gradient-to-r from-destructive/10 to-coral/10 p-6 rounded-lg">
+{/*                     <div className="bg-gradient-to-r from-destructive/10 to-coral/10 p-6 rounded-lg">
                       <h4 className="font-semibold mb-3">Critical Agriculture Zones at Risk</h4>
                       <p className="text-muted-foreground mb-4">
                         Major agricultural regions along the East Coast are experiencing unprecedented 
@@ -262,7 +262,7 @@ export const Consequences = () => {
                           <br />Sweet potatoes
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </CardContent>
               </Card>
