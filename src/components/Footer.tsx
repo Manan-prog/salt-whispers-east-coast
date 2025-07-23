@@ -51,7 +51,8 @@ export const Footer = () => {
                 <Button 
                   variant="outline" 
                   size="sm"
-                  className="w-full justify-start border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-ocean-deep"
+                  onClick={() => window.open('https://manansarupria599.wixsite.com/stardust, '_blank')}
+                  className="w-full justify-start border-primary-foreground text-black text-primary-foreground hover:bg-primary-foreground hover:text-ocean-deep"
                 >
                   <Mail className="mr-2" size={14} />
                   Contact Researcher
