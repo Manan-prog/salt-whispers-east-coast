@@ -113,7 +113,7 @@ export const Consequences = () => {
                   
                   <div className="grid md:grid-cols-3 gap-6">
                     <div className="text-center">
-                      <div className="bg-gradient-warning text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                      <div className="bg-gradient-warning text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-lg font-bold">
                         $27B+
                       </div>
                       <h4 className="font-semibold mb-2">Annual Agricultural Losses</h4>
@@ -123,7 +123,7 @@ export const Consequences = () => {
                     </div>
                     
                     <div className="text-center">
-                      <div className="bg-ocean-medium text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                      <div className="bg-ocean-medium text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-lg font-bold">
                         $20-40B/year
                       </div>
                       <h4 className="font-semibold mb-2">Infrastructure Costs</h4>
@@ -133,7 +133,7 @@ export const Consequences = () => {
                     </div>
                     
                     <div className="text-center">
-                      <div className="bg-destructive text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-xl font-bold">
+                      <div className="bg-destructive text-white rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4 text-lg font-bold">
                         $23B/year
                       </div>
                       <h4 className="font-semibold mb-2">Ecosystem Services Lost</h4>
