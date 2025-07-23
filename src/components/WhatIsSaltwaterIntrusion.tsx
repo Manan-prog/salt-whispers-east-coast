@@ -12,8 +12,9 @@ export const WhatIsSaltwaterIntrusion = () => {
               What is Saltwater Intrusion?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Saltwater intrusion occurs when saltwater from oceans and seas moves into 
-              freshwater aquifers and surface waters, disrupting delicate coastal ecosystems.
+              A growing crisis where saltwater infiltrates freshwater systems, threatening coastal communities 
+              and ecosystems worldwide. Our cutting-edge satellite technology now makes monitoring this invisible 
+              threat faster and more precise than ever before.
             </p>
           </div>
 

@@ -70,26 +70,26 @@ export const EastCoastImpact = () => {
                     storm for saltwater intrusion.
                   </p>
                   
-                  <div className="space-y-4">
-                    <div className="flex items-center gap-3">
-                      <TrendingUp className="text-coral" size={20} />
-                      <span className="text-sm">
-                        <strong>12 inches:</strong> Average sea level rise expected by 2050
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <TrendingUp className="text-coral" size={20} />
-                      <span className="text-sm">
-                        <strong>2-3 feet:</strong> Projected rise by 2100 in vulnerable areas
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-3">
-                      <TrendingUp className="text-coral" size={20} />
-                      <span className="text-sm">
-                        <strong>Accelerating:</strong> Rate of intrusion increasing each decade
-                      </span>
-                    </div>
-                  </div>
+                   <div className="space-y-4">
+                     <div className="flex items-center gap-3">
+                       <TrendingUp className="text-coral" size={20} />
+                       <span className="text-sm">
+                         <strong>Tripled in 10 years:</strong> Salt-affected zones have grown dramatically
+                       </span>
+                     </div>
+                     <div className="flex items-center gap-3">
+                       <TrendingUp className="text-coral" size={20} />
+                       <span className="text-sm">
+                         <strong>Over 99% accuracy:</strong> Our satellite mapping precisely identifies salt patches
+                       </span>
+                     </div>
+                     <div className="flex items-center gap-3">
+                       <TrendingUp className="text-coral" size={20} />
+                       <span className="text-sm">
+                         <strong>Every 5 days:</strong> High-resolution monitoring with 10-meter precision
+                       </span>
+                     </div>
+                   </div>
                 </div>
                 
                 <div className="bg-card rounded-xl p-6 shadow-lg">

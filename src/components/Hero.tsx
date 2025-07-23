@@ -27,15 +27,15 @@ export const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 animate-fade-in-up">
-          Saltwater Intrusion
+          Revolutionizing Coastal Salinity Monitoring
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 animate-fade-in-up delay-200">
-          A Silent Crisis Threatening Our Coastal Ecosystems
+          🌊 Why Coastal Salinization Threatens Us All
         </p>
         <p className="text-lg text-primary-foreground/80 mb-8 max-w-2xl mx-auto animate-fade-in-up delay-400">
-          Discover how rising seas and changing climate patterns are transforming 
-          our coastal marshes, and how cutting-edge research is helping us monitor 
-          and understand these critical changes.
+          Rising sea levels and climate change are accelerating saltwater intrusion, damaging farms, 
+          wetlands, and communities. Traditional soil testing is slow and costly—discover our revolutionary 
+          satellite solution offering instant, high-resolution insights.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up delay-600">
