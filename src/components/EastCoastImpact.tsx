@@ -119,7 +119,7 @@ export const EastCoastImpact = () => {
                     <img 
                       src={SpectralUnmixing} 
 {/*                       alt="Spectral Unmixing Diagram" */}
-                      className="bg-white rounded-lg shadow-md mb-3 w-full max-w-md"
+                      className="rounded-lg shadow-md mb-3 w-full max-w-md"
                     />
                     <p className="text-sm text-center text-muted-foreground">
                       Spectral unmixing of a mixed pixel with randomly arranged multiple endmembers (land cover classes) 
