@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { MapPin, TrendingUp, AlertTriangle } from "lucide-react";
-
+import SpectralUnmixing from "@/assets/Spectral-Unmixing-Graphic.jpg";
 export const EastCoastImpact = () => {
   const researchFindings = [
     {
@@ -117,7 +117,7 @@ export const EastCoastImpact = () => {
                   <h4 className="font-semibold mb-4 text-center">Spectral Unmixing Concept</h4>
                   <div className="flex flex-col items-center">
                     <img 
-                      src="/assets/Spectral-Unmixing-Graphic.jpg" 
+                      src={SpectralUnmixing} 
                       alt="Spectral Unmixing Diagram"
                       className="rounded-lg shadow-md mb-3 w-full max-w-md"
                     />
