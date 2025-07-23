@@ -150,13 +150,13 @@ export const Research = () => {
 
           <Card className="mt-12 bg-gradient-to-r from-ocean-deep/5 to-ocean-medium/5 border-ocean-light/30">
             <CardContent className="p-8 text-center">
-               <h3 className="text-2xl font-bold mb-4">🌟 A New Era in Coastal Landscape Monitoring</h3>
+               <h3 className="text-2xl font-bold mb-4"> A New Era in Coastal Landscape Monitoring</h3>
                <p className="text-muted-foreground mb-6 max-w-3xl mx-auto">
                  This innovative approach combines open satellite data and machine learning to provide detailed, 
                  high-frequency land health reports. It empowers local decision-makers with vital, timely information 
                  to safeguard agriculture, ecosystems, and livelihoods amid climate challenges.
                </p>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+{/*               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
                 <div className="font-semibold">
                   <div className="text-2xl text-ocean-medium mb-1">5</div>
                   Years of Data
@@ -172,7 +172,7 @@ export const Research = () => {
                 <div className="font-semibold">
                   <div className="text-2xl text-ocean-medium mb-1">24/7</div>
                   Monitoring
-                </div>
+                </div> */}
               </div>
             </CardContent>
           </Card>
