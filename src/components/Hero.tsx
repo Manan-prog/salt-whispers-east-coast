@@ -52,7 +52,15 @@ export const Hero = () => {
             onClick={() => window.open('https://manan-prog.github.io/Delmarva-Marsh-Viewer/', '_blank')}
             className="border-primary-foreground text-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep px-8 py-3 text-lg"
           >
-            View Research Data
+            Visualize Research Data
+          </Button>
+          <Button 
+            variant="outline" 
+            size="lg"
+            onClick={() => window.open('https://zenodo.org/records/15866496', '_blank')}
+            className="border-primary-foreground text-primary-foreground text-black hover:bg-primary-foreground hover:text-ocean-deep px-8 py-3 text-lg"
+          >
+            Download Research Data
           </Button>
         </div>
       </div>
