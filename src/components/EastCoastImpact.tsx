@@ -92,7 +92,7 @@ export const EastCoastImpact = () => {
                    </div>
                 </div>
                 
-                <div className="bg-card rounded-xl p-6 shadow-lg">
+{/*                 <div className="bg-card rounded-xl p-6 shadow-lg">
                   <h4 className="font-semibold mb-4 text-center">Study Region Coverage</h4>
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
@@ -111,6 +111,20 @@ export const EastCoastImpact = () => {
                       <span className="text-sm">Total Area</span>
                       <div className="bg-ocean-deep w-18 h-2 rounded-full"></div>
                     </div>
+                  </div>
+                </div> */}
+                <div className="bg-card rounded-xl p-6 shadow-lg">
+                  <h4 className="font-semibold mb-4 text-center">Spectral Unmixing Concept</h4>
+                  <div className="flex flex-col items-center">
+                    <img 
+                      src="/assets/Spectral-Unmixing-Graphic.tif" 
+                      alt="Spectral Unmixing Diagram"
+                      className="rounded-lg shadow-md mb-3 w-full max-w-md"
+                    />
+                    <p className="text-sm text-center text-muted-foreground">
+                      Spectral unmixing of a mixed pixel with randomly arranged multiple endmembers (land cover classes) 
+                      reveals individual pure endmembers' reflectance, deconvoluted based on their fractions α₁, α₂, α₃, α₄ within the pixel area.
+                    </p>
                   </div>
                 </div>
               </div>
